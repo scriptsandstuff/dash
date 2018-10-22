@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fitnesss Results</title>
+ <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="http://unpkg.com/dc@3/dc.css" />
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/select/1.2.7/css/select.dataTables.min.css">
+    <link rel="stylesheet" type="text/css" href="my_styles.css" />
+</head>
+<body>
+    <div id="my_table_container">
+        <table id="my_table" class="table table-hover dc-data-table row-border compact stripe"> </table>
+    </div>    
+    <div id="acc1_histog"       class="my-chart"></div>
+    <div id="speed1_histog"     class="my-chart"></div>
+    <div id="acc2_histog"       class="my-chart"></div>
+    <div id="speed2_histog"     class="my-chart"></div>
+    <div id="endurance_histog"  class="my-chart"></div>   
+    <div id="power_histog"      class="my-chart"></div>
+    <div id="agility_histog"    class="my-chart"></div>
+    
+    <!-- <script src="d3.js"></script> -->
+    <script src="https://d3js.org/d3.v5.min.js"></script>    
+    <script src="crossfilter.js"></script>    
+    <!-- <script src="dc.js"></script> -->
+    <!-- https://cdnjs.cloudflare.com/ajax/libs/dc/3.0.8/dc.js -->
+    <script src="http://unpkg.com/dc@3/dc.js"></script>
+
+    <!--    <script src="../static/lib/js/jquery-3.2.1.js"></script>-->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" 
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" 
+            crossorigin="anonymous"                
+    ></script>       
+    <script type="text/javascript" src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+    <script type="text/javascript" src="https://cdn.datatables.net/select/1.2.7/js/dataTables.select.min.js"></script>
+    <script src="dash_fit.js"></script>
+</body>
+</html>
+
